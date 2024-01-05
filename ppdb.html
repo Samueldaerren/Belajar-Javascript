@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <script>
+    // menghitung nilai buat masuk ppdp
+        let nilai = 85;
+        let jalur = "rapot";
+        let tes = "80";
+
+        if(nilai >=90 && nilai <=100) {
+            console.log('Nilai Sempurna!')
+        }
+
+        else if(nilai >=75 && nilai<=100) {
+            if(jalur == "rapot")
+            console.log('Lulus jalur rapot!')
+
+
+            else if(jalur == "prestasi")
+            console.log('Lulus jalur prestasi!')
+        
+
+            else(
+                console.log('Selamat anda lulus jalur' + jalur)
+            )
+        }
+
+        else {
+            if(tes >=75 && tes<=100){
+            console.log('selamat anda lulus jalur tes!')
+        }
+
+            else{
+            console.log('Nilai anda jelek jadi ga lulus!')
+    }
+        }
+    </script>
+</body>
+</html>

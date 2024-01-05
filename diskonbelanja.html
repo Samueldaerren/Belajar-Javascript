@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+   <script>
+    let barang1 = 20000;
+    let barang2 = 20000;
+    let barang3 = 50000;
+    let hargabarang = barang1 + barang2 + barang3;
+
+    if (hargabarang > 10000) { 
+        var diskon = 0.1 * hargabarang;
+        var hargadiskon = hargabarang - diskon;
+
+        console.log("Harga diskon", hargadiskon);
+    } else {
+        console.log("Harga diskon", hargabarang);
+    }
+
+   </script> 
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <script>
+    let gajipokok = 2000000;
+    let tunjangan = 1900000;
+
+    let pajak = (gajipokok + tunjangan) * 0.08;
+    let gaji = gajipokok - pajak;
+
+    if (pajak > 0) {
+        console.log(`potongan pajak ${pajak}.`);
+    } else {
+        console.log("tidak ada potongan pajak.");
+    }
+
+    console.log("Gaji potongan pajak:" + gaji);
+
+
+    </script>
+</body>
+</html>

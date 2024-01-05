@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+    <script>
+    // Menggunakan for loop
+    function factorialFor(a) {
+    let result = 1;
+    for (let i = 1; i <= a; i++) {
+        result *= i;
+    }
+    return result;
+    }
+
+    console.log(factorialFor(5));
+
+    // Menggunakan while loop
+    function factorialWhile(a) {
+        let result = 1;
+        let i = 1;
+        while (i <= a) {
+            result *= i;
+            i++;
+        }
+        return result;
+    }
+
+    console.log(factorialWhile(5));
+
+    // Menggunakan do-while loop
+    function factorialDoWhile(a) {
+        let result = 1;
+        let i = 1;
+        do {
+            result *= i;
+            i++;
+        } while (i <= a);
+        return result;
+    }
+
+    console.log(factorialDoWhile(5));
+    </script>
+</body>
+</html>

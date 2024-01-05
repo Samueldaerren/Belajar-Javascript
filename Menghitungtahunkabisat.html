@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+</head>
+<body>
+   <script>
+    let Tahunmulai = 1000;
+    let tahunSelesai = 2023;
+
+    for (let tahun = Tahunmulai; tahun <= tahunSelesai; tahun++) {
+        if (tahun >= 1000 && tahun <= 1999) {
+            console.log(`Tahun ${tahun} bukan tahun kabisat`);
+        } else if ((tahun % 4 === 0 && tahun % 100 !== 0) || (tahun % 400 === 0)) {
+            console.log(`Tahun ${tahun} adalah tahun kabisat`);
+        } else {
+            console.log(`Tahun ${tahun} bukan tahun kabisat`);
+        }
+    }
+   </script>
+</body>
+</html>
